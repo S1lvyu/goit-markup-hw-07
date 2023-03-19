@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio-Web Studio Homework Project</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <!--HeaderSection-->
+    <header class="page-header">
+      <div class="container page-header__container">
+        <div>
+          <a class="logo" href="#"
+            ><span class="logo__section">Web</span>Studio</a
+          >
+        </div>
+        <nav class="navigation-bar">
+          <ul class="navigation-bar__left-container unstyled-list">
+            <li class="navigation-bar__left-item">
+              <a class="navigation-bar__item" href="index.html">Studio</a>
+            </li>
+            <li class="navigation-bar__left-item">
+              <a
+                class="navigation-bar__item navigation-bar--active-link"
+                href="portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="navigation-bar__left-item">
+              <a class="navigation-bar__item" href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+          <ul class="navigation-bar__right-container unstyled-list">
+            <li class="navigation-bar__right-item">
+              <a class="navigation-bar__item navigation-bar__item--right-color" href="mailto:info@devstudio.com">
+                <svg class="navigation-bar__icon" width="16px" height="12px">
+                  <use href="./images/icons.svg.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+            <li class="navigation-bar__right-item">
+              <a class="navigation-bar__item navigation-bar__item--right-color" href="tel:+12127724150">
+                <svg class="navigation-bar__icon" width="10px" height="16px">
+                  <use href="./images/icons.svg.svg#icon-smartphone"></use>
+                </svg>
+                +1 212-772-4150</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="section">
+      <div class="container">
+        <!--FilterSection-->
+        <div>
+          <ul class="filter-menu unstyled-list">
+            <li>
+              <button class="filter-menu__button" type="button">All</button>
+            </li>
+            <li>
+              <button class="filter-menu__button" type="button">
+                Web-sites
+              </button>
+            </li>
+            <li>
+              <button class="filter-menu__button" type="button">
+                Apps
+              </button>
+            </li>
+            <li>
+              <button class="filter-menu__button" type="button">
+                Design
+              </button>
+            </li>
+            <li>
+              <button class="filter-menu__button" type="button">
+                Marketing
+              </button>
+            </li>
+          </ul>
+        </div>
+        <!--PortofolioSection-->
+        <div class="portfolio">
+          <ul class="cards-list unstyled-list">
+            <li class="cards-list__item">
+              <div class="overlay-container">
+                <img width="370" src="images/website.jpg" alt="Technoduck" />
+                <div class="overlay-container__item">
+                  <p class="overlay-container__text">
+                    Technoduck is a state-of-the-art coronavirus distribution
+                    platform. Companies use this platform for digital espionage
+                    and attacks on competitors' secure servers.
+                  </p>
+                </div>
+              </div>
+              <div class="cards-list__description">
+                <h2 class="cards-list__title">Technoduck</h2>
+                <p class="cards-list__type">Web-site</p>
+              </div>
+            </li>
+            <li class="cards-list__item">
+              <div class="overlay-container">
+                <img
+                  width="370"
+                  src="images/design.jpg"
+                  alt="Poster New Orlean vs Golden Star"
+                />
+                <div class="overlay-container__item"></div>
+              </div>
+              <div class="cards-list__description">
+                <h2 class="cards-list__title">Poster New Orlean vs Golden Star</h2>
+                <p class="cards-list__type">Design</p>
+              </div>
+            </li>
+            <li class="cards-list__item">
+              <div class="overlay-container">
+                <img
+                  width="370"
+                  src="images/apps.jpg"
+                  alt="Seafood Restaurant "
+                />
+                <div class="overlay-container__item"></div>
+              </div>
+              <div class="cards-list__description">
+                <h2 class="cards-list__title">Seafood Restaurant</h2>
+                <p class="cards-list__type">Apps</p>
+              </div>
+            </li>
+            <li class="cards-list__item">
+              <div class="overlay-container">
+                <img
+                  width="370"
+                  src="images/marketing.jpg"
+                  alt="Headphones Project Prime"
+                />
+                <div class="overlay-container__item"></div>
+              </div>
+              <div class="cards-list__description">
+                <h2 class="cards-list__title">Project Prime</h2>
+                <p class="cards-list__type">Marketing</p>
+              </div>
+            </li>
+            <li class="cards-list__item">
+              <div class="overlay-container">
+                <img width="370" src="images/apps2.jpg" alt="Project Boxes" />
+                <div class="overlay-container__item"></div>
+              </div>
+              <div class="cards-list__description">
+                <h2 class="cards-list__title">Project Boxes</h2>
+                <p class="cards-list__type">Apps</p>
+              </div>
+            </li>
+            <li class="cards-list__item">
+              <div class="overlay-container">
+                <img
+                  width="370"
+                  src="images/website2.jpg"
+                  alt="Inspiration has no Borders"
+                />
+                <div class="overlay-container__item"></div>
+              </div>
+              <div class="cards-list__description">
+                <h2 class="cards-list__title">Inspiration has no Borders</h2>
+                <p class="cards-list__type">Web-site</p>
+              </div>
+            </li>
+            <li class="cards-list__item">
+              <div class="overlay-container">
+                <img
+                  width="370"
+                  src="images/design2.jpg"
+                  alt="Limited Edition"
+                />
+                <div class="overlay-container__item"></div>
+              </div>
+              <div class="cards-list__description">
+                <h2 class="cards-list__title">Limited Edition</h2>
+                <p class="cards-list__type">Design</p>
+              </div>
+            </li>
+            <li class="cards-list__item">
+              <div class="overlay-container">
+                <img width="370" src="images/marketing2.jpg" alt="Label Tag" />
+                <div class="overlay-container__item"></div>
+              </div>
+              <div class="cards-list__description">
+                <h2 class="cards-list__title">Project LAB</h2>
+                <p class="cards-list__type">Marketing</p>
+              </div>
+            </li>
+            <li class="cards-list__item">
+              <div class="overlay-container">
+                <img
+                  width="370"
+                  src="images/apps3.jpg"
+                  alt="Growing Business"
+                />
+                <div class="overlay-container__item"></div>
+              </div>
+              <div class="cards-list__description">
+                <h2 class="cards-list__title">Growing Business</h2>
+                <p class="cards-list__type">Apps</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <!--FooterSection-->
+     <footer class="page-footer">
+      <div class="container page-footer__container">
+        <div>
+          <div class="page-footer__logo">
+            <a class="logo logo--color" href="#"
+              ><span class="logo__section">Web</span>Studio</a
+            >
+          </div>
+          <address>
+            <ul class="unstyled-list adress-section">
+              <li>
+                <a
+                  class="adress-section__item adress-section__item--color"
+                  href="#"
+                  >695 Park Ave, NY 10065, USA</a
+                >
+              </li>
+              <li>
+                <a class="adress-section__item" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="adress-section__item" href="tel:12127724150"
+                  >+1 212-772-4150</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="page-social-media">
+          <h2 hidden></h2>
+          <h3 class="page-social-media__title">Find us on</h3>
+          <ul class="unstyled-list social-media">
+            <li class="social-media__item">
+              <svg width="20px" height="20px" class="social-media__icon">
+                <a href="#">
+                  <use href="./images/icons.svg.svg#icon-instagram" class="social-media__footer"></use>
+                </a>
+              </svg>
+            </li>
+            <li class="social-media__item">
+              <svg width="20px" height="20px" class="social-media__icon">
+                <a href="#">
+                  <use href="./images/icons.svg.svg#icon-twitter"  class="social-media__footer"></use>
+                </a>
+              </svg>
+            </li>
+            <li class="social-media__item">
+              <svg width="20px" height="20px class="social-media__icon">
+                <a href="#">
+                  <use href="./images/icons.svg.svg#icon-facebook"  class="social-media__footer"></use>
+                </a>
+              </svg>
+            </li>
+            <li class="social-media__item">
+              <svg width="20px" height="20px" class="social-media__icon">
+                <a href="#">
+                  <use href="./images/icons.svg.svg#icon-linkedin"  class="social-media__footer"></use>
+                </a>
+              </svg>
+            </li>
+          </ul>
+        </div>
+
+        <form name="subscribe-form" class="footer-form">
+          <label for="email-subscription" class="footer-form__label"
+            >Subscribe to the newsletter
+          </label>
+          <div class="footer-form__input-container">
+            <input
+              type="email"
+              id="email-subscription"
+              placeholder="E-mail"
+              name="email-subscription"
+              class="footer-form__input"
+            />
+            <button type="submit" class="footer-form__button">
+              Subscribe
+              <svg width="24px" height="24px">
+                <use
+                  href="./images/icons.svg.svg#icon-footer-send-button"
+                ></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
